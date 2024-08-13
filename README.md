@@ -20,6 +20,6 @@
 
 ## 👥 Integrantes do Grupo
 
+- **Henrique Bertini da Cruz** - [GitHub]([https://github.com/seu-usuario](https://github.com/henriquebertinidacruz?tab=repositories))  
 - **Paulo Vitor R. Silva** - [GitHub](https://github.com/seu-usuario)  
-- **Henrique Bertini da Cruz** - [GitHub](https://github.com/seu-usuario)  
 - **Matheus Felipe Cardoso** - [GitHub](https://github.com/seu-usuario)
