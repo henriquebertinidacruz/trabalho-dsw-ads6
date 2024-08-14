@@ -1,0 +1,59 @@
+.btn-custom {
+    background-color: #08253F;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.btn-custom:hover {
+    background-color: #06426A;
+    transform: scale(1.05);
+}
+
+.btn-custom:active {
+    background-color: #041D29;
+}
+
+.btn-custom-atualizar {
+    background-color: #FFC107;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.3s;
+    border-radius: 10px;
+}
+
+.btn-custom-atualizar:hover {
+    background-color: #FFA000;
+    transform: scale(1.05);
+}
+
+.btn-custom-atualizar:active {
+    background-color: #C67100;
+}
+
+ #etiquetasTable th:nth-child(8),
+ #etiquetasTable td:nth-child(8) {
+     max-width: 150px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+ }
+
+ #LabelValidationTable th:nth-child(8),
+ #LabelValidationTable td:nth-child(8) {
+     max-width: 50px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+ }

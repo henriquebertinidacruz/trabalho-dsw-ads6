@@ -1,0 +1,15 @@
+#aleatorio {
+    position: relative;
+}
+
+.toast-custom {
+    background-color: #ff9900;
+    color: #fff;
+}
+
+.toast-container-custom {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1055;
+}

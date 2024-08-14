@@ -1,0 +1,188 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    height: 100vh;
+}
+
+.scoreboard-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: center;
+}
+
+.scoreboard {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header {
+    background-color: midnightblue;
+    padding: 10px 0;
+}
+
+header a.navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+header ul.navbar-nav a {
+    color: #007bff !important;
+    font-weight: bold;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-reprovado,
+.btn-aprovado {
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+}
+
+.btn-aprovado {
+    background-color: green;
+    color: white;
+    margin-left: 20px;
+}
+
+.btn-reprovado {
+    background-color: red;
+    color: white;
+    margin-left: 20px;
+
+}
+
+.hide {
+    display: none;
+}
+
+.botoes-escolha {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.btn-item {
+    width: 450px;
+    height: 100px;
+    margin: 5px;
+    background-color: gray;
+    color: white;
+}
+
+.botoes-local {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .botoes-escolha button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.responsive-button {
+    display: block;
+    width: 80%;
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-decoration: none !important;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+header {
+    background-color: midnightblue;
+    padding: 10px 0;
+}
+
+header a.navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+header ul.navbar-nav a {
+    color: #007bff !important;
+    font-weight: bold;
+}
+
+.label-status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.button-container {
+    text-align: center;
+    display: none;
+}
+
+.custom-button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-custom {
+    font-size: 30px;
+    width: 300px;
+}
+
+.custom-column {
+    margin-left: 280px;
+    margin-right: 200px;
+}
+
+.button-container-posicao {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 85px;
+}
+
+.button-container-posicao button {
+    width: 260px;
+    height: 70px;
+    margin-bottom: 15px;
+    background-color: blue;
+    color: white;
+}
+
+.button-container-posicao button.clicked {
+    background-color: Orange;
+}

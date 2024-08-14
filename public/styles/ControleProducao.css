@@ -1,0 +1,25 @@
+.nav-tabs .nav-link {
+    color: #08253F;
+    font-size: 1.2rem;
+}
+
+.nav-tabs .nav-link.active {
+    color: #08253F;
+    font-weight: bold;
+}
+
+.toast-success {
+    background-color: #28a745;
+    width: 70% !important;
+}
+
+.toast-error {
+    background-color: #dc3545;
+    width: 70% !important;
+}
+
+.toast-bottom-center {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}

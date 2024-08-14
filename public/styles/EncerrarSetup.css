@@ -1,0 +1,38 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-footer {
+    background-color: #f7f7f7;
+    border-top: 1px solid #ddd;
+}
+
+.btn-departamentos {
+    cursor: pointer;
+}
+
+.card-header-custom {
+    background-color: #08253F;
+    color: white;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.btn-custom {
+    background-color: #08253F;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #061f2d;
+    color: white;
+}

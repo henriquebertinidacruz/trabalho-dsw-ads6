@@ -1,0 +1,11 @@
+.container {
+    width: 80%;
+}
+
+.navbar {
+    background-color: #08253F;
+    color: white;
+}
+.navbar-brand, .nav-link, .navbar-text {
+    color: white !important;
+}
